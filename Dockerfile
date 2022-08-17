@@ -1,8 +1,8 @@
-FROM ubuntu:16.04
+FROM ubuntu:22.04
 
-MAINTAINER Colm Ryan <cryan@bbn.com>
+MAINTAINER John M0JPI https://github.com/M0JPI/
 
-# build with docker build --build-arg VIVADO_TAR_HOST=host:port --build-arg VIVADO_TAR_FILE=Xilinx_Vivado_SDK_2016.3_1011_1 -t vivado .
+# build with docker build --build-arg VIVADO_TAR_HOST=host:port --build-arg VIVADO_TAR_FILE=Xilinx_Vivado_SDK_2022.1_1011_1 -t vivado .
 
 #install dependences for:
 # * downloading Vivado (wget)
